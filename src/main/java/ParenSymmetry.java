@@ -4,8 +4,33 @@ import java.util.List;
 public class ParenSymmetry {
 
     public Boolean isBalanced(String s) {
-        return null;
-    }
+        //needs to read a string ensuring amount of "(" and amount of ")" are equal
+        //if equal boolean is true
+
+            int amountParen = 0;
+            int spot = 0;
+
+            while (spot < s.length()) {
+                char  idx = s.charAt(spot);
+
+                if (idx == '(') {
+                    amountParen = amountParen + 1;
+                }
+                if (idx == ')') {
+                    amountParen = amountParen - 1;
+                }
+                if (spot < 0) {
+                    return false;
+                }
+                spot++;
+            }
+
+        return amountParen == 0;
+        }
+
+
+
+
 
     private void checkFile(String filename) {
         // open file named filename
@@ -36,6 +61,8 @@ public class ParenSymmetry {
             trues = ps.isBalanced(strToTest);
         }
         printResult(trues, true);
+
+        // ps.checkfile (TestStrings1);
 
     }
 
