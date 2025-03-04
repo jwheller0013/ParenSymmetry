@@ -38,6 +38,7 @@ public class ParenSymmetry {
         // for each line in the file
             // read the line
             // print whether or not the line's parenthesis are balanced
+            // need to run isBalanced on each line
 
         // CLOSE the file
     }
