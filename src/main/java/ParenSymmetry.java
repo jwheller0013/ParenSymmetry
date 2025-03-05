@@ -38,10 +38,11 @@ public class ParenSymmetry {
     private void checkFile(String filename) {
         // open file named filename
         try {
-            File myObj = new File("TestStrings0.txt");
+            File myObj = new File(filename);
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
+                System.out.println(isBalanced(data));
             }
             myReader.close();
         } catch (FileNotFoundException e) {
@@ -58,6 +59,9 @@ public class ParenSymmetry {
 
     public static void main(String[] args) {
         ParenSymmetry ps = new ParenSymmetry();
+
+        ps.checkFile("TestStrings0.txt");
+
 
         Boolean b0 = ps.isBalanced("()");
         printResult(b0, true);

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb5b884-c783-4b8f-a7c8-37a1385a81d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="adb5b884-c783-4b8f-a7c8-37a1385a81d0" name="Changes" comment="Thinking on checkFile">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ParenSymmetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParenSymmetry.java" afterDir="false" />
     </list>
@@ -28,24 +25,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jwheller0013"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jwheller0013&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jwheller0013/ParenSymmetry.git",
-    "accountId": "9f8b69f7-196b-425e-8737-f659b436fdf5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jwheller0013/ParenSymmetry.git&quot;,
+    &quot;accountId&quot;: &quot;9f8b69f7-196b-425e-8737-f659b436fdf5&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dHcRuays5Dmc6sTi8owAt4o0Cl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ParenSymmetry.executor": "Run",
     "JUnit.ParenSymmetryTest.executor": "Run",
     "JUnit.ParenSymmetryTest.isBalanced1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -71,22 +69,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParenSymmetryTest">
+  <component name="RunManager" selected="Application.ParenSymmetry">
+    <configuration name="ParenSymmetry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParenSymmetry" />
+      <module name="ParenSymmetry" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParenSymmetryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParenSymmetry" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParenSymmetryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParenSymmetryTest.isBalanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ParenSymmetry" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ParenSymmetryTest" />
-      <option name="METHOD_NAME" value="isBalanced" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParenSymmetry" />
         <item itemvalue="JUnit.ParenSymmetryTest" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalanced1" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalancedFalses" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalancedTrues" />
-        <item itemvalue="JUnit.ParenSymmetryTest.isBalanced" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +135,31 @@
       <option name="presentableId" value="Default" />
       <updated>1709668439554</updated>
     </task>
+    <task id="LOCAL-00001" summary="Solved isBalanced">
+      <option name="closed" value="true" />
+      <created>1741116053170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741116053170</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Thinking on checkFile">
+      <option name="closed" value="true" />
+      <created>1741118878327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741118878327</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Thinking on checkFile">
+      <option name="closed" value="true" />
+      <created>1741125213963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741125213963</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,5 +172,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solved isBalanced" />
+    <MESSAGE value="Thinking on checkFile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thinking on checkFile" />
   </component>
 </project>
